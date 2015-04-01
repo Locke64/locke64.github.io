@@ -1,14 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>YOUR SITE TITLE</title>
-  <-- Add some style to your site, see http://getbootstrap.com for details -->
+  <title>David Wilson</title>
+  <style type="text/css">
+    h1 small { white-space: nowrap; }
+    @media screen and (min-width: 768px) {
+      .jumbotron ul { margin-top: 20px; }
+    }
+    main.container > .row + .row { border-top: 1px dashed; }
+    .skills ul { list-style-type: none; padding-left: 0px; }
+  </style>
   <link rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-  <h1>YOUR SITE TITLE</h1>
-  <p>Your text blahblahbhalbha</p>
-  <p>Another paragraph!  Maybe more text!</p>
+  <header class="jumbotron">
+    <div class="container">
+	  <div class="row">
+	    <div class="col-sm-7 col-md-9">
+          <h1>David Wilson <small>Software Engineer</small></h1>
+		</div>
+		<div class="col-sm-5 col-md-3">
+		  <ul class="fa-ul">
+			<li><i class="fa-li fa fa-home"></i>[home addr]<br />[city/state/zip]</li>
+			<li><i class="fa-li fa fa-envelope"></i>[email]</li>
+			<li><i class="fa-li fa fa-phone"></i>[phone]</li>
+			<li><a href="https://www.linkedin.com/pub/david-wilson/52/26a/94a"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                <a href="https://github.com/Locke64"><i class="fa fa-github-square fa-2x"></i></a>
+            </li>
+	      </ul>
+		</div>
+      </div>
+	</div>
+  </header>
+  <main class="container">
+    <section class="well">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque rutrum semper. Nam vestibulum vehicula nisi, ut lacinia sem cursus a. Aenean tellus nibh, tempor ut purus consectetur, feugiat malesuada mauris. Duis rutrum a dolor consequat venenatis. Nunc elementum ullamcorper tempus. In volutpat erat ex, quis fermentum odio sollicitudin vel. Donec at enim velit. Ut non nunc non quam eleifend aliquet eu in ex. Proin vitae nulla id sem eleifend viverra quis eget est. In tincidunt venenatis justo, at ornare massa molestie quis.</p>
+    </section>
+    <section class="row">
+      <div class="col-sm-4">
+        <h2>Skills</h2>
+      </div>
+      <div class="col-sm-8">
+        <div class="row skills">
+          <div class="col-md-6">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                  HTML/CSS
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                  JavaScript
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                  PHP
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                  Java
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                  C#
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                  C/C++
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                  SQL
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>Applications & Frameworks</h3>
+            <ul>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                  Visual Studio
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                  Eclipse
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                  MediaWiki
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                  Wordpress
+                </div>
+              </li>
+              <li class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                  AngularJS
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-sm-4">
+        <h2>Experience</h2>
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Microsoft</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque rutrum semper. Nam vestibulum vehicula nisi, ut lacinia sem cursus a. Aenean tellus nibh, tempor ut purus consectetur, feugiat malesuada mauris. Duis rutrum a dolor consequat venenatis. Nunc elementum ullamcorper tempus. In volutpat erat ex, quis fermentum odio sollicitudin vel. Donec at enim velit. Ut non nunc non quam eleifend aliquet eu in ex. Proin vitae nulla id sem eleifend viverra quis eget est. In tincidunt venenatis justo, at ornare massa molestie quis.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>SPX</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque rutrum semper. Nam vestibulum vehicula nisi, ut lacinia sem cursus a. Aenean tellus nibh, tempor ut purus consectetur, feugiat malesuada mauris. Duis rutrum a dolor consequat venenatis. Nunc elementum ullamcorper tempus. In volutpat erat ex, quis fermentum odio sollicitudin vel. Donec at enim velit. Ut non nunc non quam eleifend aliquet eu in ex. Proin vitae nulla id sem eleifend viverra quis eget est. In tincidunt venenatis justo, at ornare massa molestie quis.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Fidelity</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque rutrum semper. Nam vestibulum vehicula nisi, ut lacinia sem cursus a. Aenean tellus nibh, tempor ut purus consectetur, feugiat malesuada mauris. Duis rutrum a dolor consequat venenatis. Nunc elementum ullamcorper tempus. In volutpat erat ex, quis fermentum odio sollicitudin vel. Donec at enim velit. Ut non nunc non quam eleifend aliquet eu in ex. Proin vitae nulla id sem eleifend viverra quis eget est. In tincidunt venenatis justo, at ornare massa molestie quis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-sm-4">
+        <h2>Interests</h2>
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Zelda Dungeon</h3>
+            <ul>
+              <li><a href="http://www.zeldadungeon.net">ZeldaDungeon.net</a></li>
+              <li>Webmaster</li>
+              <li>Wiki Admin</li>
+              <li>Forum Admin</li>
+              <li>I help maintain the server, work on projects on the wiki, and every once in a while actually play a Zelda game.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3>Music</h3>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-heart"></i> Hitomi Kuroishi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
